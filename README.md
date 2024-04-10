@@ -7,5 +7,3 @@ En cada carpeta encontrarás un documento llamado **main.ipynb**, el cual contie
 - Lindsay Andrea Quintero Hernández 
 - [Nombre del integrante 3]
 - [Nombre del integrante 4]
-
-¡Por favor, asegúrate de completar los nombres de los integrantes faltantes!
