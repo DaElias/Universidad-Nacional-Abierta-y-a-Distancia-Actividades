@@ -5,5 +5,4 @@ En cada carpeta encontrarás un documento llamado **main.ipynb**, el cual contie
 ## Integrantes: 
 - David Cerchiaro
 - Lindsay Andrea Quintero Hernández 
-- [Nombre del integrante 3]
-- [Nombre del integrante 4]
+- Cristian Sebastian Santos Gonzalez
