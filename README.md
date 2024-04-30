@@ -1,3 +1,27 @@
-# Repositorio de git de actividades
+# Repositorio de Actividades Universitarias
 
-En cada rama encontrarás por el nombre la materia y la fase de la actividad.
+Este repositorio contiene las actividades realizadas en diversas materias durante mi carrera universitaria. Cada rama del repositorio representa una materia específica y la fase de la actividad realizada.
+
+## Estructura del Repositorio
+
+- **Analisis de datos**
+- Fase 3: Regresion lineal, regresion logistica y arbol de decision.
+- Fase 4: K-means.
+
+
+## Instrucciones de Uso
+
+1. Clona este repositorio en tu máquina local utilizando el comando:
+   ```
+   git clone [URL del repositorio]
+   ```
+
+2. Cambia a la rama correspondiente a la materia y fase que desees revisar utilizando el comando:
+   ```
+   git checkout [nombre de la rama]
+   ```
+
+3. Explora los archivos y carpetas para revisar el contenido de la actividad correspondiente.
+
+
+
