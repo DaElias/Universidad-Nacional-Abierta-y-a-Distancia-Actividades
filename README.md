@@ -4,9 +4,9 @@ Este repositorio contiene las actividades realizadas en diversas materias durant
 
 ## Estructura del Repositorio
 
-- **Analisis de datos**
-- Fase 3: Regresion lineal, regresion logistica y arbol de decision.
-- Fase 4: K-means.
+### **Analisis de datos**
+- [Fase 3: Regresion lineal, regresion logistica y arbol de decision.](https://github.com/DaElias/Universidad-Nacional-Abierta-y-a-Distancia-Actividades/tree/analisis-de-datos-fase-3)
+- [Fase 4: K-means.](https://github.com/DaElias/Universidad-Nacional-Abierta-y-a-Distancia-Actividades/tree/analisis-de-datos-fase-4)
 
 
 ## Instrucciones de Uso
@@ -22,6 +22,7 @@ Este repositorio contiene las actividades realizadas en diversas materias durant
    ```
 
 3. Explora los archivos y carpetas para revisar el contenido de la actividad correspondiente.
+
 
 
 
