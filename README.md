@@ -6,7 +6,7 @@ Este repositorio contiene las actividades realizadas en diversas materias durant
 
 ### **Analisis de datos**
 - [Fase 3: Regresion lineal, regresion logistica y arbol de decision.](https://github.com/DaElias/Universidad-Nacional-Abierta-y-a-Distancia-Actividades/tree/analisis-de-datos-fase-3)
-- [Fase 4: K-means.](https://github.com/DaElias/Universidad-Nacional-Abierta-y-a-Distancia-Actividades/tree/analisis-de-datos-fase-4)
+- [Fase 4: K-means y hierarchical-clustering.](https://github.com/DaElias/Universidad-Nacional-Abierta-y-a-Distancia-Actividades/tree/analisis-de-datos-fase-4)
 
 
 ## Instrucciones de Uso
