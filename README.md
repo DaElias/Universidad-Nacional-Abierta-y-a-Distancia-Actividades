@@ -13,7 +13,7 @@ Este repositorio contiene las actividades realizadas en diversas materias durant
 
 1. Clona este repositorio en tu máquina local utilizando el comando:
    ```
-   git clone [URL del repositorio]
+   git clone https://github.com/DaElias/Universidad-Nacional-Abierta-y-a-Distancia-Actividades.git
    ```
 
 2. Cambia a la rama correspondiente a la materia y fase que desees revisar utilizando el comando:
