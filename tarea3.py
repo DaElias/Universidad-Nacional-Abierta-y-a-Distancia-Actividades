@@ -5,7 +5,7 @@ from pyspark.sql.types import IntegerType, FloatType
 spark = SparkSession.builder.appName('Tarea3').getOrCreate()
 
 # Define la ruta del archivo .csv en HDFS
-file_path = 'hdfs://localhost:9000/Tarea3/rows.csv'
+file_path = 'hdfs://localhost:9000/Tarea3/4n4q-k399.csv'
 
 # Lee el archivo .csv en un DataFrame
 df = spark.read.format('csv').option('header', 'true').option('inferSchema', 'true').load(file_path)
