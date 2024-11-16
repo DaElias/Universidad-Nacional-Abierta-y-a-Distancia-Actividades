@@ -82,7 +82,7 @@ try:
     print("\n=== Cantidad de Productos que no aplican descuento  : ",cantidad_productos-count)
     
     # 6. Análisis de calificacion por categoría
-    print("\n=== Procentaje de productos cons descuentos mayores al 30% ===")
+    print("\n=== Procentaje de productos con descuentos mayores al 30% ===")
     print("\n=== procentaje:  ", (count/cantidad_productos)*100, "% \n")
 
     print("\n=== Promedio de calificacion por categoría ===")
@@ -100,12 +100,6 @@ try:
     for category in category_ratings:
         avg_rating = category_ratings[category] / category_counts[category]
         print(f"{category}: {avg_rating:.2f}")
-    
-    # 7. Ejemplo de actualizacion de precio
-    product_to_update = 'product_0'
-    new_price = 75000
-    table.put(product_to_update.encode(), {b'product_info:discounted_price': str(new_price).encode()}) 
-    print(f"\nPrecio actualizado para el producto ID: {product_to_update}")
 
 except Exception as e:
     print(f"Error: {str(e)}") 
