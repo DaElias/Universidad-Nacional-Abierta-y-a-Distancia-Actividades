@@ -26,8 +26,9 @@ try:
     # 3. Cargar datos desde el archivo CSV
     product_data = pd.read_csv('amazon.csv')  # Cambia el nombre del archivo si es necesario
     # for index, row in product_data.iterrows():
+    cantidad_productos = 150
     for index, row in  product_data.iterrows():
-        if index >= 99:
+        if index >= cantidad_productos-1:
             break
         row_key = f'product_{index}'.encode()  # Generar row key basado en el índice
         
@@ -71,13 +72,19 @@ try:
     
     # 5. Encontrar productos con descuento mayor al 30%
     print("\n=== Productos con descuento mayor al 30% ===")
+    count = 0
     for key, data in table.scan():
         if float(data[b'product_info:discount_percentage'].decode().replace("%","")) > 30:
-            # print(f"\nProducto ID: {key.decode()}")
+            count += 1
             print(f"Nombre: {data[b'product_info:product_name'].decode()}")
-            print(f"Descuento: {data[b'product_info:discount_percentage'].decode()}%")
+            # print(f"Descuento: {data[b'product_info:discount_percentage'].decode()}%")
+    print("\n=== Cantidad de Productos con descuento mayor al 30%: ",count)
+    print("\n=== Cantidad de Productos que no aplican descuento  : ",cantidad_productos-count)
     
     # 6. Análisis de calificacion por categoría
+    print("\n=== Procentaje de productos cons descuentos mayores al 30% ===")
+    print("\n=== procentaje:  ", (count/cantidad_productos)*100, "% \n")
+
     print("\n=== Promedio de calificacion por categoría ===")
     category_ratings = {}
     category_counts = {}
